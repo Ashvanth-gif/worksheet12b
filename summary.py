@@ -2,7 +2,7 @@ import sys
 from collections import Counter
 
 filename = sys.argv [1]
-num=sys.argv[2]
+num=int(sys.argv[2])
 with open (filename) as f:
     lines = f.readlines ()
  
